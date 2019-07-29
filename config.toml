@@ -1,7 +1,7 @@
 baseURL = "http://diagnosis.letb.cl"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Meghna"
+title = "Fundación Diagnosis"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -86,11 +86,11 @@ command = "hugo --gc --minify"
 
 # Site params
 [params]
-home= "Home"
-logo = "images/logo.png"
+home= "Inicio"
+logo = "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/Diagnosis_logo_notext.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
+description = "Te ayudamos a diagnosticar tu enfermedad genética"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"

@@ -5,7 +5,10 @@
                 {{"<!-- logo -->" | safeHTML}}
                 <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
                         <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
-                        <span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
+                        <div class="brand-text">
+                                <span class="pl-2 font-weight-light ">Fundación</span>
+                                <span class="pl-2 font-weight-bold bottom-logo-text">Diagnosis</span>
+                        </div>
                 </a>
                 {{"<!-- /logo -->" | safeHTML}}
 

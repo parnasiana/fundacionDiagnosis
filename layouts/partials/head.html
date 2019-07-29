@@ -31,6 +31,13 @@
     {{ "<!-- Custom CSS -->" | safeHTML }}
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
+    {{"<!-- LETB LAYOUT -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"/letb_layout.css"|absURL}}">
+    {{"<!-- LETB BASE -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"/letb_base.css"|absURL}}">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
     {{ end }}
 
 {{- partial "head_custom.html" . }}
