@@ -2,6 +2,33 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-area {
+    background: #33CCCC;
+}
+
+.hero-area::before {
+    background: none;
+}
+
+.hero-area .block h1 {
+    font-size: 90px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-area .block p {
+    color: #fff;
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
 .navbar-brand span{
     letter-spacing: 5px;
     font-size: 28px;    

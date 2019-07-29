@@ -50,39 +50,29 @@ command = "hugo --gc --minify"
 # Menu
 [menu]
     [[menu.nav]]
-    name = "About Us"
+    name = "Sobre Nosotros"
     URL = "about"
     weight = 2
 
     [[menu.nav]]
-    name = "Service"
+    name = "Exámenes"
     URL = "services"
     weight = 3
 
     [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
+    name = "Miembros"
+    URL = "our-team"
     weight = 4
 
     [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
+    name = "Artículos"
+    URL = "blog"
     weight = 5
 
     [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 7
-
-    [[menu.nav]]
-    name = "Contact"
+    name = "Contáctanos"
     URL = "contact-us"
-    weight = 8
+    weight = 6
 
 # Site params
 [params]
@@ -101,10 +91,10 @@ custom_css = ["css/custom.css"]
     enable = true
     bgImage = "images/slider/hero-area.jpg"
     icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    heading = "Te ayudamos a saber el origen de tu condición o enfermedad"
+    content= "Buscamos apoyar el proceso de diagnóstico de enfermedades genéticas con el fin de generar conocimiento en el mundo de la investigación científica y para facilitar tu camino en la comprensión, socialización y posible tratamiento de la enfermedad o condición que padeces."
     btn = true
-    btnText="Explore Us"
+    btnText="¡Necesito más información!"
     btnURL="#services"
 
     # call to action
