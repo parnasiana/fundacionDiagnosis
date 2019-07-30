@@ -96,8 +96,8 @@ custom_css = ["css/custom.css"]
 
     # footer
     [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
+        copyright = "Let_b = services, ui/ux, web"
+        copyrightURL = "https://www.letb.cl/"
 
         # social Icons
         [[params.footer.socialIcon]]

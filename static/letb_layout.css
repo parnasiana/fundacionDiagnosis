@@ -19,3 +19,7 @@
 .call-to-action h2{
     padding-bottom: 30px;
 }
+
+.copyright a img{
+    width: 150px;
+}
