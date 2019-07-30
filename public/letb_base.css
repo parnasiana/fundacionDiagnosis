@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-brand span{
     letter-spacing: 5px;
-    font-size: 28px;    
+    font-size: 30px;    
 }
 
 .bottom-logo-text{
@@ -64,3 +64,17 @@ h1, h2, h3, h4, h5, h6{
 .about .block .icon-box:after{
     display: none;
 }
+
+.call-to-action h2, .copyright {
+    color: #33CCCC;
+}
+
+.copyright span{
+    letter-spacing: 5px;
+    font-size: 60px;   
+    text-transform: uppercase; 
+}
+
+
+
+

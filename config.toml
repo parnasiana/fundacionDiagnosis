@@ -55,11 +55,11 @@ custom_css = ["css/custom.css"]
     enable = true
     bgImage = "images/slider/hero-area.jpg"
     icon = "tf-ion-play"
-    heading = "Te ayudamos a saber el origen de tu condición o enfermedad"
+    heading = "Queremos ayudarte a conocer el origen de tu condición o enfermedad"
     content= "Buscamos apoyar el proceso de diagnóstico de enfermedades genéticas con el fin de generar conocimiento en el mundo de la investigación científica y para facilitar tu camino en la comprensión, socialización y posible tratamiento de la enfermedad o condición que te afecta."
     btn = true
-    btnText="¡Necesito más información!"
-    btnURL="#services"
+    btnText="Leer más"
+    btnURL="#about"
 
     # call to action
     [params.cta]

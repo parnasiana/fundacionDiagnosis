@@ -6,20 +6,28 @@
 
 
 .navbar-brand img{
-    width: 100px;
+    width: 80px;
 }
 
 .brand-text{
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    justify-content: flex-end;
 }
 
 .call-to-action h2{
     padding-bottom: 30px;
 }
 
+.footer-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .copyright a img{
     width: 150px;
 }
+
+
+

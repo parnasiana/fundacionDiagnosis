@@ -8,14 +8,18 @@
 			
 
 				{{"<!-- copyright -->" | safeHTML}}
-				<div class="copyright text-center">
+				<div class="copyright">
+					<div class="footer-brand">
 					<a href="{{ .Site.BaseURL | absURL }}">
 						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
 					</a>
-					<span>Fundación</span>
-					<span>Diagnosis</span>
+					<div class="brand-text">
+					<span class="pl-2 font-weight-light">Fundación</span>
+					<span class="pl-2 font-weight-bold bottom-logo-text">Diagnosis</span>
+				</div>
+				</div>
 					<br>
-					<p>Diseñado y desarrollado por <a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; <script>
+					<p class="text-center">Diseñado y desarrollado por <a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; <script>
 							document.write(new Date().getFullYear())
 						</script>  . Todos los derechos reservados.</p>
 				</div>
