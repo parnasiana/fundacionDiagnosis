@@ -64,8 +64,8 @@ custom_css = ["css/custom.css"]
     # call to action
     [params.cta]
     enable = true
-    title = "¡Tenemos mucha información para entregarte en este proceso de búsqueda!"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    title = "¡Participa en nuestro workshop!"
+    content = ""
     btnURL = "#"
     btnText = "Start a project with us"
 
