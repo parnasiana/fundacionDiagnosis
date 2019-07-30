@@ -1,0 +1,13 @@
+enable : true
+image : https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/Diagnosis8.jpg
+title : Somos una fundación sin fines de lucro.
+description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+description2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+aboutItem : 
+  - icon : tf-circle-compass
+    title : SEO Optimized
+    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    
+  - icon : tf-hotairballoon
+    title : Easy Customization
+    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

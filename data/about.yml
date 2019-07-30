@@ -1,0 +1,15 @@
+enable : true
+heading : Sobre Fundación
+headingSpan : Diagnosis
+aboutItem : 
+- icon : fal fa-user-md
+  title : Somos médicos y académicos
+  content : Tenemos años de experiencia en diversas especialidades y queremos ayudarte con un enfoque multidisciplinario
+
+- icon : fal fa-microscope
+  title : Investigar como premisa
+  content : Queremos generar conocimiento en base a procesos de investigación científica éticos y colaborativos.
+
+- icon : fal fa-book
+  title : Aportar nuevo conocimiento
+  content : Buscamos mejorar la formación de los profesionales de la salud en genética.
