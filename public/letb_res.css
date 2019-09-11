@@ -1,0 +1,25 @@
+@media (max-width: 480px){
+
+  .hero-area{
+    height: auto;
+  }
+
+  .hero-area .block h1 {
+    font-size: 38px;
+    margin: 80px auto 30px;
+    line-height: 50px;
+  }
+  .hero-area .block p {
+    font-size: 11px;
+    width: 90%;
+    line-height: 12px;
+    text-align: justify;
+  }
+
+  .hero-area .block .btn-transparent {
+    margin: 50px auto;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+}

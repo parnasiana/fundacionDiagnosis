@@ -1,19 +1,28 @@
+/*--HERO AREA--*/
+
+.block{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*--NAVBAR--*/
+
 .navbar-brand{
     display: flex;
     flex-direction: row;
     width: 25%;
 }
 
-
 .navbar-brand img{
-    width: 80px;
+    width: 300px
 }
 
-.brand-text{
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
+/*--ABOUT--*/
+
+.about-icons{
+    width: 120px;
 }
+
 
 .call-to-action h2{
     padding-bottom: 30px;
