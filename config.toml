@@ -19,17 +19,17 @@ summaryLength = 10
     weight = 2
 
     [[menu.nav]]
-    name = "Exámenes"
+    name = "Actividades"
     URL = "services"
     weight = 3
 
     [[menu.nav]]
-    name = "Miembros"
+    name = "Equipo"
     URL = "our-team"
     weight = 4
 
     [[menu.nav]]
-    name = "Artículos"
+    name = "Información"
     URL = "blog"
     weight = 5
 
