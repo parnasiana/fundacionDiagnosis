@@ -1,5 +1,5 @@
 @media (max-width: 480px){
-
+  /*--HERO-AREA--*/
   .hero-area{
     height: auto;
   }
@@ -20,6 +20,15 @@
     margin: 50px auto;
     font-weight: 500;
     letter-spacing: 2px;
-}
+  }
+  /*--NAVBAR--*/
+  .navbar-brand img {
+    width: 200px;
+  }
+
+  /*--ABOUT--*/
+  .title h2{
+    font-size: 28px;
+  }
 
 }

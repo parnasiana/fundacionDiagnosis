@@ -1,5 +1,9 @@
 /*--HERO AREA--*/
 
+.hero-area{
+    width: 100%;
+}
+
 .block{
     width: 90%;
     margin: 0 auto;

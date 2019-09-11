@@ -1,6 +1,7 @@
 enable : true
 heading : Podemos contarte de
-headingSpan : "Diagnosis:"
+headingSpan : Diagnosis
+endSpan: "que:"
 aboutItem : 
 - img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_teamIcon.png"
   content : Somos un grupo formado por personas de distintos ámbitos, incluídos médicos y académicos. Nos motiva investigar y ayudar.
