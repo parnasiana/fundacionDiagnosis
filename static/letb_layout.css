@@ -1,3 +1,7 @@
+.block{
+    width: 90%;
+    margin: 0 auto;
+}
 .navbar-brand{
     display: flex;
     flex-direction: row;
@@ -6,7 +10,7 @@
 
 
 .navbar-brand img{
-    width: 80px;
+    width: 300px
 }
 
 .brand-text{

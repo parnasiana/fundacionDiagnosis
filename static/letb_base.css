@@ -18,17 +18,13 @@ h1, h2, h3, h4, h5, h6{
 
 .hero-area .block h1 {
     font-size: 90px;
-    color: #fff;
     text-transform: none;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .hero-area .block p {
-    color: #fff;
     font-size: 16px;
-    width: 70%;
-    margin: 0 auto;
+    width: 90%;
 }
 
 .navbar-brand span{
