@@ -22,19 +22,20 @@
 
                         {{"<!-- member social profile -->" | safeHTML}}
                         <div class="mask">
-                            <ul class="list-inline">
+                                <p class="member-brief">{{ .description }}</p>
+                            <!-- <ul class="list-inline">
                                 {{ range .socialIcon }}
                                 <li class="list-inline-item"><a href="#"><i class="{{ .icon }}"></i></a></li>
                                 {{ end }}
-                            </ul>
+                            </ul>-->
                         </div>
                     </div>
 
                     {{"<!-- member name & designation -->" | safeHTML}}
                     <div class="member-meta">
-                        <h4>{{ .name }}</h4>
+                        <h6>{{ .name }}</h4>
                         <span>{{ .designation }}</span>
-                        <p>{{ .description }}</p>
+                        
                     </div>
                 </div>
             </div>

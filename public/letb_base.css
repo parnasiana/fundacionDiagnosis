@@ -1,11 +1,5 @@
-body {
+body, h1, h2, h3, h4, h5, h6, p{
     font-family: 'Encode Sans', sans-serif;
-
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Encode Sans', sans-serif;
-
 }
 
 .hero-area {
@@ -61,8 +55,22 @@ h1, h2, h3, h4, h5, h6{
     display: none;
 }
 
+/*--CALL-TO-ACTION--*/
 .call-to-action h2, .copyright {
     color: #33CCCC;
+}
+
+/*--TEAM--*/
+.member-photo .mask{
+    background-color: #33CCCC;
+}
+
+.member-brief{
+    color: #FFF;
+    font-size: 10px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 11px;
 }
 
 .copyright span{
