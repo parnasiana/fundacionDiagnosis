@@ -9,7 +9,7 @@
 
     <title>{{ if .IsHome }}{{ .Site.Title }}{{" | "}}{{ .Site.Params.Description }}{{ else if .IsPage}}{{ .Title }}{{" | "}}{{ .CurrentSection.Title }}{{else if eq .Section "author" }}{{if .Params.name}}{{.Params.name}} | {{ i18n "authorOfPostsOnBlog" }} „{{.Site.Title}}" {{else}}{{ i18n "authorsOfPostsOnBlog" }} „{{.Site.Title}}"{{end}}{{else if eq .Section "blog" }}{{ i18n "blogs" }} | {{ .Site.Title}}{{else}}{{ .Title }}{{with .Params.Description}}{{" | " .}}{{ end }}{{ end }}</title>
 
-    <link rel="icon" type="img/png" href="https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/small_icon.png">
+    <link rel="icon" type="img/png" href="https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/Diagnosis_logoSmall.png">
     {{"<!-- Favicon -->" |safeHTML}}
     <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>
 

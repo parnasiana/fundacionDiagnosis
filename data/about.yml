@@ -1,15 +1,12 @@
 enable : true
-heading : Más sobre
-headingSpan : Diagnosis
+heading : Podemos contarte de
+headingSpan : "Diagnosis:"
 aboutItem : 
-- icon : fal fa-user-md
-  title : Somos profesionales, médicos y académicos
-  content : Tenemos años de experiencia en diversas especialidades y queremos ayudarte con un enfoque multidisciplinario.
+- img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_teamIcon.png"
+  content : Somos un grupo formado por personas de distintos ámbitos, incluídos médicos y académicos. Nos motiva investigar y ayudar.
 
-- icon : fal fa-microscope
-  title : Investigar como premisa
-  content : Queremos generar conocimiento en base a procesos de investigación científica éticos y colaborativos.
+- img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_microscopeIcon.png"
+  content : Para nosotros, investigar es nuestra premisa. Buscamos generar conocimiento a través de procesos de investigación científica éticos y colaborativos.
 
-- icon : fal fa-book
-  title : Aportar nuevo conocimiento
-  content : Buscamos facilitar la formación de los profesionales de la salud en genética.
+- img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_knowledgeIcon.png"
+  content : Queremos expandir el conocimiento sobre genética, para que los profesionales de la salud lo incorporen en su formación, sin importar su nivel de especialización.

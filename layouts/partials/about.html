@@ -17,11 +17,10 @@
             <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
                 <div class="block">
                     <div class="icon-box">
-                        {{with .icon}}<i class="{{ . }}"></i>{{ end }}
+                        {{with .img}}<img src="{{ . }}" class="about-icons">{{ end }}
                     </div>
                     {{"<!-- Express About Yourself -->" | safeHTML}}
                     <div class="content text-center">
-                        {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
                         {{ with .content}}  <p>{{ . }}</p>{{ end }}
                     </div>
                 </div>
