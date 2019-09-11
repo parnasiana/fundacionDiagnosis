@@ -27,9 +27,19 @@
     width: 120px;
 }
 
-
+/*--CALL-TO-ACTION--*/
 .call-to-action h2{
     padding-bottom: 30px;
+}
+
+.flyers-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img.flyer-diagnosis{
+    width: 30%;
 }
 
 .footer-brand {

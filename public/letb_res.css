@@ -31,4 +31,16 @@
     font-size: 28px;
   }
 
+  /*--CALL-TO-ACTION--*/
+  .flyers-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img.flyer-diagnosis{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 }

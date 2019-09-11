@@ -1,11 +1,15 @@
 {{ if .Site.Params.cta.enable}}
 {{"<!-- Start Call To Action -->" | safeHTML}}
-<section class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
+<section class="call-to-action section-sm bg-1 overly">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                {{ with .Site.Params.cta.title}} <h2>{{ . }}</h2> {{ end }}
-                <img src="https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/Info_workshop.jpg">
+                <div class="flyers-holder">
+                    <img class="flyer-diagnosis" src="https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/BioinformaticaMedica.jpg">
+                    <img class="flyer-diagnosis" src="https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/DetectivesGeneticos.jpg">
+                    <img class="flyer-diagnosis" src="https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/AFICHE_SONEPSYN_TRASTORNOSDELMOVIEMIENTO.JPG">
+                </div>
             </div>
         </div>
     </div>

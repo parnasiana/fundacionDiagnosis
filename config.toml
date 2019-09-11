@@ -64,11 +64,7 @@ custom_css = ["css/custom.css"]
     # call to action
     [params.cta]
     enable = true
-    title = "¡Participa en nuestro workshop!"
-    content = ""
-    bgImage = ""
-    btnURL = "#"
-    btnText = "Start a project with us"
+    title = "¡Entérate de nuestras próximas actividades!"
 
     # counter
     [params.counter]
