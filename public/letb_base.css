@@ -79,6 +79,47 @@ body, h1, h2, h3, h4, h5, h6, p{
     text-transform: uppercase; 
 }
 
+/*--INFO-IMPORTANT--*/
+
+.path-holder, .path-end{
+    background-color: #C6C6C6;
+}
+
+.path-holder{
+    border: 15px solid #FFF;
+}
+
+.in-path-title{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.in-path-text{
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    padding: 0 30px 30px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.logo-info{
+    clip-path:polygon(50% 8%, 2% 90%, 98% 90%);
+}
+
+
 
 
 

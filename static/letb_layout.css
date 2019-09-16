@@ -52,5 +52,13 @@ img.flyer-diagnosis{
     width: 150px;
 }
 
+/*--INFO-IMPORTANT--*/
+
+.path-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
 
 
