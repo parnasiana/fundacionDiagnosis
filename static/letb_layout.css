@@ -57,7 +57,12 @@ img.flyer-diagnosis{
 .path-holder{
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
+    height: 345px;
+}
+
+.first-text, .second-text{
+    width: 400px;
 }
 
 

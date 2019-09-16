@@ -97,10 +97,11 @@ body, h1, h2, h3, h4, h5, h6, p{
 }
 
 .in-path-text{
-    font-size: 18px;
+    font-size: 16px;
     color: #000;
     font-weight: 400;
-    padding: 0 30px 30px;
+    padding: 0 30px 20px;
+    margin: 0;
 }
 
 .left{
@@ -115,8 +116,26 @@ body, h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 
+.logo-path{
+    width: 400px;
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;    
+    background: #FFF;
+    box-sizing: border-box;
+    clip-path:polygon(51% -6%, 0% 100%, 100% 100%);
+    left: 37%;
+    top: -330px;
+}
+
 .logo-info{
-    clip-path:polygon(50% 8%, 2% 90%, 98% 90%);
+    position: absolute;
+    top: 15px; 
+    left: 28px; 
+    width: 347px;
+    height: 300px;
+    
 }
 
 
