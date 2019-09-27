@@ -55,15 +55,43 @@ img.flyer-diagnosis{
 /*--INFO-IMPORTANT--*/
 
 .path-holder{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 345px;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
 }
 
-.first-text, .second-text{
-    width: 400px;
+.shaped{
+    background: #FFF center top no-repeat;
+    height: 350px;
+    width: 375px;
+    background-size: cover;
+    shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
+    shape-margin: 10px;
+    clip-path: polygon(47% 0%, 0% 95%, 92% 95%);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
 }
+
+.shaped img{
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.first-text{
+    float: left;
+    width: 38%;
+}
+
+.second-text{
+    float: right;
+    width: 38%;
+}
+
 
 
 
