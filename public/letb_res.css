@@ -118,4 +118,18 @@ img.flyer-diagnosis{
   margin: 0 auto 30px;
 }
 
+.thanks-text {
+  width: 80%;
+  margin: 80px auto;
+  font-size: 16px;
+}
+
+.back-to-home {
+  width: 80%;
+  margin: 0 auto;
+}
+.back-to-home a{
+  font-size: 16px;
+}
+
 }
