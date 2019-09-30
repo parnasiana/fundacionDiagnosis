@@ -98,4 +98,24 @@ img.flyer-diagnosis{
   padding: 10px;
 }
 
+/*--FOOTER--*/
+.copyright{
+  flex-direction: column;
+}
+
+.footer-brand{
+  justify-content: center;
+}
+
+.copyright a img{
+  margin: 50px auto;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+
 }

@@ -42,17 +42,11 @@ img.flyer-diagnosis{
     width: 30%;
 }
 
-.footer-brand {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.copyright a img{
-    width: 150px;
-}
-
 /*--INFO-IMPORTANT--*/
+
+.info{
+    padding: 100px 0 0;
+}
 
 .path-holder{
     height: auto;
@@ -112,6 +106,43 @@ img.flyer-diagnosis{
     height: 10px;
 }
 
+/*--FOOTER--*/
+
+.col-xl-12{
+    padding: 0;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright a img{
+    width: 150px;
+    margin-bottom: 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contact-span{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.icon-foot{
+    margin-right: 20px;
+}
 
 
 

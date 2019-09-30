@@ -73,12 +73,6 @@ body, h1, h2, h3, h4, h5, h6, p{
     line-height: 12px;
 }
 
-.copyright span{
-    letter-spacing: 5px;
-    font-size: 60px;   
-    text-transform: uppercase; 
-}
-
 /*--INFO-IMPORTANT--*/
 
 .in-path-text, .in-path-title, .follow-span,
@@ -181,6 +175,23 @@ a.download-letter{
     background-color: #33CCCC;
 }
 
+/*--FOOTER--*/
+
+.contact-title{
+    color: #33CCCC;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.copyright span{
+    font-size: 16px;
+    color: #FFF;
+    line-height: 16px;
+}
+
+.icon-foot{
+    color: #FFF;
+}
 
 
 
