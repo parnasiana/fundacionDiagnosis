@@ -144,5 +144,59 @@ img.flyer-diagnosis{
     margin-right: 20px;
 }
 
+/*--LETB-Sign--*/
+.letb-sign{
+    display: inline-block;
+    bottom: 0;
+    background: #000;
+    color: grey;
+    width: 100%;
+    text-align: center;
+    font-size: 8px;
+    padding: 10px 0;
+}
+
+.letb-sign a{
+    color: #FFF;
+    font-size: 8px;
+}
+
+/*--FORM--*/
+
+.diagnosis-form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.select2-diagnosis{
+    margin: 30px 0;
+}
+
+/*--SUBMIT--*/
+
+#submit-holder{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.thanks-text{
+    width: 100%;
+    padding: 50px;
+    margin: 80px 0;
+    border-radius: 15px;
+}
+
+a.back-to-home{
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
 
 

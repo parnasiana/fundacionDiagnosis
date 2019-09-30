@@ -1,0 +1,36 @@
+{{ partial "head.html" . }} 
+
+{{ partial "navigation.html" . }}
+
+
+{{ if .Site.Data.submit.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="bg-one form section" id="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2>{{ .Site.Data.submit.heading}} <span class="color">{{ .Site.Data.submit.headingSpan}}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+            {{ end }}
+
+            <div id="submit-holder">
+              <div class="thanks-mssg">
+                <h2 class="thanks-title">¡Gracias enviar tu solicitud</h2>
+                <p class="thanks-text">Nuestro equipo revisa todas las solicitudes con mucho cuidado, recuerda que el proceso requiere paciencia.<br>
+                  ¡Nos pondremos en contacto contigo!</p>
+                <a href="/" class="back-to-home">Sigue navegando por nuestra página</a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  {{ partial "footer" . }}
+
+  {{ partial "letb-sign.html" . }}
+

@@ -1,7 +1,7 @@
 @media (max-width: 480px){
   /*--HERO-AREA--*/
   .hero-area{
-    height: auto;
+    height: 700px;
   }
 
   .hero-area .block h1 {
