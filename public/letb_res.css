@@ -43,4 +43,59 @@ img.flyer-diagnosis{
     margin-bottom: 50px;
 }
 
+/*--INFO-IMPORTANT--*/
+
+.path-holder{
+  flex-direction: column;
+  background-color: #C6C6C6;
+  border-bottom: none;
+}
+
+.first-text, .second-text{
+  float: none;
+  width: 100%;
+}
+
+.first-text{
+  border-bottom: solid 10px #FFF;
+}
+
+.third-text{
+  border: solid 10px #FFF;
+}
+
+.in-path-title{
+  text-align: center;
+  font-size: 24px;
+}
+
+.in-path-text{
+  text-align: justify;
+  padding: 20px;
+}
+
+.follow-span{
+  font-size: 24px;
+}
+
+.first-step, .second-step, .third-step, .fourth-step, .fifth-step{
+  padding: 70px 10%;
+}
+
+.step-instruction{
+  width: 70%;
+}
+
+.step-title{
+  font-size:14px;
+}
+
+.step-text{
+  font-size: 12px;
+}
+
+.to-form{
+  padding: 10px;
+}
+
 }

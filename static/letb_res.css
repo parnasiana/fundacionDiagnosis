@@ -74,4 +74,28 @@ img.flyer-diagnosis{
   padding: 20px;
 }
 
+.follow-span{
+  font-size: 24px;
+}
+
+.first-step, .second-step, .third-step, .fourth-step, .fifth-step{
+  padding: 70px 10%;
+}
+
+.step-instruction{
+  width: 70%;
+}
+
+.step-title{
+  font-size:14px;
+}
+
+.step-text{
+  font-size: 12px;
+}
+
+.to-form{
+  padding: 10px;
+}
+
 }
