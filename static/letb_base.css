@@ -158,9 +158,29 @@ a.download-letter{
     background-color: #BEBEBE;
 }
 
-a.to-form{
-    
+.to-form{
+    border: none;
+    background-color: #33CCCC;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
 }
+
+.to-form a{
+    color: #000;
+    text-decoration: none;
+}
+
+.fourth-step{
+    background-color: #9D9D9D;
+}
+
+.fifth-step{
+    background-color: #767676;
+}
+
+.pre-foot{
+    background-color: #33CCCC;
+}
+
 
 
 
