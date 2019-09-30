@@ -56,7 +56,7 @@ body, h1, h2, h3, h4, h5, h6, p{
 }
 
 /*--CALL-TO-ACTION--*/
-.call-to-action h2, .copyright {
+.call-to-action h2, .copyright, a.to-form {
     color: #33CCCC;
 }
 
@@ -81,16 +81,25 @@ body, h1, h2, h3, h4, h5, h6, p{
 
 /*--INFO-IMPORTANT--*/
 
-.in-path-title{
-    font-size: 30px;
+.in-path-text, .in-path-title, .follow-span,
+.step-num, .step-title, .step-text, a.download-letter{
     color: #000;
-    font-weight: bold;
+}
+.in-path-title, .follow-span{
+    font-size: 30px;
     padding: 30px;
+}
+
+.in-path-title, .step-num, .step-title{
+    font-weight: bold;
+}
+
+.follow-span{
+    background-color: #33CCCC;
 }
 
 .in-path-text{
     font-size: 21px;
-    color: #000;
     font-weight: 400;
     padding: 0 30px 20px;
     margin: 0;
@@ -118,6 +127,40 @@ body, h1, h2, h3, h4, h5, h6, p{
     border: solid #FFF 10px;
 }
 
+.arrow-down {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;    
+    border-top: 40px solid #33CCCC;
+    position: absolute;
+}
+
+.first-step, a.to-form{
+    background-color: #FFF;
+}
+
+.step-num{
+    font-size: 100px;
+}
+
+.step-title{
+    text-transform: uppercase;
+}
+
+a.download-letter{
+    color: rgb(42, 168, 168);
+}
+
+.second-step{
+    background-color: #E4E4E4;
+}
+
+.third-step{
+    background-color: #BEBEBE;
+}
+
+a.to-form{
+    
+}
 
 
 
