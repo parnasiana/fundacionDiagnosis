@@ -191,10 +191,12 @@ img.flyer-diagnosis{
     border-radius: 15px;
 }
 
-a.back-to-home{
+.back-to-home{
     padding: 10px;
     width: 100%;
     border-radius: 50px;
+    display:flex;
+    justify-content: center;
 }
 
 
