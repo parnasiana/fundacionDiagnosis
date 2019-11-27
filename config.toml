@@ -64,7 +64,7 @@ custom_css = ["css/custom.css"]
     # call to action
     [params.cta]
     enable = true
-    title = "¡Entérate de nuestras próximas actividades!"
+    title = "Algunas de las actividades que hemos realizado ultimamente"
 
     # counter
     [params.counter]
