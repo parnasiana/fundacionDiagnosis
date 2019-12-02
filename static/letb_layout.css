@@ -54,16 +54,24 @@ img.flyer-diagnosis{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
 }
 
 .first-text{
     float: left;
-    width: 38%;
+    width: 33.3%;
+}
+
+.logo-info-middle{
+    width: 33.3%;
+    position: absolute;
+    bottom: 0;
+    left: 33.3%;
 }
 
 .second-text{
     float: right;
-    width: 38%;
+    width: 33.3%;
 }
 
 .follow-span{

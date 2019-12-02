@@ -113,11 +113,12 @@ body, h1, h2, h3, h4, h5, h6, p{
 
 .path-end{
     background-color: #C6C6C6;
+    border: solid #FFF 10px;
+    border-top: none;
 }
 
 .path-holder{
-    background-image: url(https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/background-section.png);
-    background-size: cover;
+    background-color:#C6C6C6;
     border: solid #FFF 10px;
 }
 
