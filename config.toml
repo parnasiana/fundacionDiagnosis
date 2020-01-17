@@ -20,7 +20,7 @@ summaryLength = 10
 
     [[menu.nav]]
     name = "Actividades"
-    URL = "services"
+    URL = "cta"
     weight = 3
 
     [[menu.nav]]
@@ -30,7 +30,7 @@ summaryLength = 10
 
     [[menu.nav]]
     name = "Información"
-    URL = "blog"
+    URL = "info"
     weight = 5
 
     [[menu.nav]]
