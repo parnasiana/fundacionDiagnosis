@@ -2,6 +2,10 @@ body, h1, h2, h3, h4, h5, h6, p{
     font-family: 'Encode Sans', sans-serif;
 }
 
+body{
+ color: #ddd;
+}
+
 .hero-area {
     background: #33CCCC;
 }
@@ -14,12 +18,11 @@ body, h1, h2, h3, h4, h5, h6, p{
     font-size: 64px;
     text-transform: none;
     font-weight: 600;
-    text-align: left;
 }
 
 .hero-area .block p {
-    font-size: 16px;
-    width: 100%;
+    font-size: 18px;
+    width: 90%;
 }
 
 .navbar-brand span{

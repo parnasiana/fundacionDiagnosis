@@ -45,6 +45,10 @@ img.flyer-diagnosis{
 
 /*--INFO-IMPORTANT--*/
 
+.logo-info-middle{
+  display:none;
+}
+
 .path-holder{
   flex-direction: column;
   background-color: #C6C6C6;
