@@ -2,6 +2,10 @@ body, h1, h2, h3, h4, h5, h6, p{
     font-family: 'Encode Sans', sans-serif;
 }
 
+body{
+ color: #ddd;
+}
+
 .hero-area {
     background: #33CCCC;
 }
@@ -11,13 +15,13 @@ body, h1, h2, h3, h4, h5, h6, p{
 }
 
 .hero-area .block h1 {
-    font-size: 90px;
+    font-size: 64px;
     text-transform: none;
     font-weight: 600;
 }
 
 .hero-area .block p {
-    font-size: 16px;
+    font-size: 18px;
     width: 90%;
 }
 

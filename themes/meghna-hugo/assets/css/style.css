@@ -406,7 +406,6 @@ a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
   color: #fff;
@@ -528,7 +527,8 @@ a:hover {
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #737f8a;
+  color: #fff;
+  font-weight: 600;
 }
 
 .navigation .navigation-menu li a:hover,
@@ -634,6 +634,7 @@ a:hover {
 .hero-area .block .btn-transparent {
   margin-top: 40px;
   border-color: #fff;
+  border-radius:12px;
   padding: 14px 50px;
   font-size: 18px;
   font-size: 16px;
@@ -689,6 +690,8 @@ a:hover {
   border-bottom: 2px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.24);
 }
 
 .about .block:hover {
