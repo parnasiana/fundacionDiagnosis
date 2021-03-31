@@ -207,6 +207,21 @@ img.flyer-diagnosis{
     justify-content: center;
 }
 
+/*--DIRECTORIO--*/
+.avatar-diagnosis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.avatar-img{
+    width: 30%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-right: 30px;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.24);;
+}
 
 
 
