@@ -1,36 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://diagnosis.letb.cl/directorio/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://diagnosis.letb.cl/form/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://diagnosis.letb.cl/submit/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://diagnosis.letb.cl/author/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://diagnosis.letb.cl/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://diagnosis.letb.cl/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://diagnosis.letb.cl/tags/</loc>
   </url>
-  
 </urlset>
