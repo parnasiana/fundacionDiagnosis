@@ -38,6 +38,21 @@
     justify-content: space-between;
 }
 
+.self-marketing {
+  display: flex;
+  flex-direction: column;
+}
+
+.self-marketing img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.self-marketing p{
+  width: 100%;
+  text-align: justify;
+}
+
 img.flyer-diagnosis{
     width: 100%;
     margin-bottom: 50px;

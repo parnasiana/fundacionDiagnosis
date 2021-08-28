@@ -63,6 +63,9 @@ body{
 .call-to-action h2, .copyright, a.to-form {
     color: #33CCCC;
 }
+.call-to-action p {
+    color:#FFF;
+}
 
 /*--TEAM--*/
 .member-photo .mask{

@@ -42,6 +42,27 @@ img.flyer-diagnosis{
     width: 30%;
 }
 
+.self-marketing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.self-marketing img {
+    width: 35%;
+}
+
+.go-to-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+.go-to-course p{
+    text-align: justify;
+}
+
 /*--INFO-IMPORTANT--*/
 
 .info{
