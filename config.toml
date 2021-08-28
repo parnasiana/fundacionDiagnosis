@@ -35,7 +35,7 @@ summaryLength = 10
 
     [[menu.nav]]
     name = "Contáctanos"
-    URL = "contact-us"
+    URL = "footer"
     weight = 6
 
 # Site params

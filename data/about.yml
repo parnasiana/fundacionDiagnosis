@@ -1,13 +1,13 @@
 enable : true
-heading : Podemos contarte de
-headingSpan : Diagnosis
-endSpan: "que:"
+heading : Nuestro
+headingSpan : "propósito:"
+endSpan: 
 aboutItem : 
 - img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_teamIcon.png"
-  content : Somos un grupo formado por personas de distintos ámbitos, incluidos médicos y académicos, con la motivación de ayudar a diagnosticar e  investigar enfermedades desconocidas
+  content : Unir a personas de distintos ámbitos, incluidos médicos y académicos, con la motivación de ayudar a diagnosticar e  investigar enfermedades desconocidas
 
 - img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_microscopeIcon.png"
-  content : Usar la tecnología para entender las enfermedades es nuestro foco. A partir de ello buscamos generar conocimiento a través de investigación científica ética y colaborativa.
+  content : Usar la tecnología para entender las enfermedades, generar conocimiento a través de investigación científica ética y colaborativa.
 
 - img : "https://letb.s3-sa-east-1.amazonaws.com/Diagnosis/About-iconos/Diagnosis_knowledgeIcon.png"
-  content : Queremos expandir el conocimiento sobre genética, y promover que los profesionales de la salud lo incorporen en su formación, sin importar su nivel de especialización.
+  content : Expandir el conocimiento sobre genética, y promover que los profesionales de la salud lo incorporen en su formación, sin importar su nivel de especialización.
